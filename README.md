@@ -1,2 +1,1 @@
-# docusaurus-blog
-Blog hosted on Netlify using Docusaurus
+# Ayman's Blog using Docusauras
