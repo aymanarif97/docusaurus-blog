@@ -1,10 +1,8 @@
-
-
-
 module.exports = {
   title: 'Ayman Blog',
   tagline: 'Welcome to technical blog by yours truly!',
   url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ayman-blog.netlify.app',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Ayman/Arif', // Usually your GitHub org/user name.
