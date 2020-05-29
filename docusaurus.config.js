@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ayman Blog',
   tagline: 'Welcome to technical blog by yours truly!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ayman-blog.netlify.app',
   baseUrl: '/',
   favicon: 'https://images.squarespace-cdn.com/content/v1/5883caad59cc684854aef84c/1508481793651-279DZYIVW4B6DHIARAWN/ke17ZwdGBToddI8pDm48kHFnmntegnVXpN4y4ldn3ixZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxco7Gi2cI2YfBk8ZWdc_m6Xcr86dXh8TsiE3NyioNRZj9sD37Ved1vsRvl2h0UxBw/A+blank.JPG',
   organizationName: 'Ayman/Arif', // Usually your GitHub org/user name.
