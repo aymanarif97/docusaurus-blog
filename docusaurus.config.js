@@ -1,21 +1,18 @@
-
-
-
 module.exports = {
   title: 'Ayman Blog',
   tagline: 'Welcome to technical blog by yours truly!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://images.squarespace-cdn.com/content/v1/5883caad59cc684854aef84c/1508481793651-279DZYIVW4B6DHIARAWN/ke17ZwdGBToddI8pDm48kHFnmntegnVXpN4y4ldn3ixZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxco7Gi2cI2YfBk8ZWdc_m6Xcr86dXh8TsiE3NyioNRZj9sD37Ved1vsRvl2h0UxBw/A+blank.JPG',
   organizationName: 'Ayman/Arif', // Usually your GitHub org/user name.
   projectName: 'docusaurus-blog', // Usually your repo name.
   themeConfig: {
-    /*
     navbar: {
+      hideOnScroll: true,
       title: "Ayman's Blog",
       logo: {
-        alt: 'My Site Logo',
-        src: 'https://pbs.twimg.com/profile_images/1158072032338124801/z7XafZpg_400x400.jpg',
+        alt: 'Ayman',
+        src: 'https://www.pinclipart.com/picdir/big/229-2290719_alien-meets-arrival-inspired-the-heptapod-language-clipart.png',
       },
       links: [
         {
@@ -27,51 +24,13 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/AymanArif',
-          className: 'header-github-link',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          alt: 'Hello',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
-    */
-   navbar: {
-    hideOnScroll: true,
-    title: "Ayman's Blog",
-    logo: {
-      alt: 'Ayman',
-      src: 'https://www.pinclipart.com/picdir/big/229-2290719_alien-meets-arrival-inspired-the-heptapod-language-clipart.png',
-    },
-    links: [
-      {
-        to: 'docs',
-        activeBasePath: 'docs',
-        label: 'Docs',
-        position: 'left',
-      },
-      {to: 'blog', label: 'Blog', position: 'left'},
-      {
-        href: 'https://github.com/AymanArif',
-        position: 'right',
-        className: 'header-github-link',
-        alt: 'Hello',
-        'aria-label': 'GitHub repository',
-      },
-      {
-        href: 'https://twitter.com/@aymanace97',
-        position: 'right',
-        className: 'header-twitter-link',
-        alt: 'Hello',
-        'aria-label': 'Twitter',
-      },
-      {
-        href: 'https://twitter.com/@aymanace97',
-        position: 'right',
-        className: 'header-twitter-link',
-        alt: 'Hello',
-        'aria-label': 'Linkedin',
-      },
-    ],
-  },
     algolia: {
       apiKey: 'f525c011a89da812bb79972c20a078ec',
       indexName: 'Blog',
@@ -85,12 +44,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Docusaurus',
               to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
             },
           ],
         },
@@ -98,16 +53,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/ayman-arif-patel-300683127/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Gitlab',
+              href: 'https://github.com/AymanArif',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Medium',
+              href: 'https://medium.com/@aymanarif/the-hype-cycle-bdbb1adec14',
             },
           ],
         },
@@ -115,17 +70,21 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'GitHub',
+              href: 'https://github.com/AymanArif',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Gitlab',
+              href: 'https://github.com/AymanArif',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/@aymanace97',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ayman's Blog was built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} This blog is with Docusaurus and Netlify`,
     },
   },
   presets: [

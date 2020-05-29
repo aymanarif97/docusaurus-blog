@@ -31,6 +31,11 @@
   width: 100%;
 }
 
+.featureImage {
+  height: 200px;
+  width: 200px;
+}
+
 .featureImageRectangle {
   height: 200px;
   width: 355px;

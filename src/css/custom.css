@@ -45,17 +45,3 @@ html[data-theme='dark'] .header-github-link:before {
 .header-twitter-link:hover {
   opacity: 0.6;
 }
-
-.headertwitter-link:before {
-  content: '';
-  width: 24px;
-  height: 24px;
-  display: flex;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAACMElEQVQ4jb2QS2gTURiF/zsdM0kmmTxrSGp1kxaxPtq0CoFWKBVduBPpxlWlIL5AQYNK0ehGgtJFAyKibiq4cKXgQqTQahSMj6IxFrGkrTEpNZmkM5mZzGSSua5SkjDuxLO7P+d83HMA/pcu3XntuHDrBd16RwAAV+/HR26M75vRC4anP/odTuae223r0bCm5taK8ZIgP8YaPggUdRoBAEw+W0hWVS32vpY89WR0tNYIiD7/Mben37+//tYwhoXEcj6bZWMVQZkgAACsFrraN+A/PmTpnb3+6NNI3RyKxnwer2NXI5BACLwdLovRZMhHzgwmSQAAnhPeEMi7uzfQNVhg+ad3Xy59ESXlW4mXyoggqNZaJU7Mq1LhLAAACQAgyYo9NpfIBvZ2eZ0uhna6mCAABDVN0x20otaE8NiwvAGwMmZTX6Dbh1CzkSAIXYCiqCsbHgAAYV08l5hPvRP4clU30SBVrQHHSfEmwMSxwEqRK81+TaQWf6VzKtbwXwHLS6vf2eVMpAkAAEDgthmPx0H5trg3IQLphnleKudWi9HbFw+J9VuT88r0B6+xjZjyeJwHtu/YZm/cRBTlSuJz6mHoSM/Jxgx5eepVu2JAPqfNGmQYerij0z3UvtlurxswBkj/zGWy6d8PQkd3Xmv9FUkVakW62z5Gm6nDjI3eijVsZPO8IpTKrCwra9y6OC+w5Zvh8f5FvVpNFc5PvjUhQ60TkZgkkTkTOTHA6Y7xL/UH6nDhpm7oYjcAAAAASUVORK5CYII=")
-    no-repeat;
-}
-
-html[data-theme='dark'] .twitter:before {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAACMElEQVQ4jb2QS2gTURiF/zsdM0kmmTxrSGp1kxaxPtq0CoFWKBVduBPpxlWlIL5AQYNK0ehGgtJFAyKibiq4cKXgQqTQahSMj6IxFrGkrTEpNZmkM5mZzGSSua5SkjDuxLO7P+d83HMA/pcu3XntuHDrBd16RwAAV+/HR26M75vRC4anP/odTuae223r0bCm5taK8ZIgP8YaPggUdRoBAEw+W0hWVS32vpY89WR0tNYIiD7/Mben37+//tYwhoXEcj6bZWMVQZkgAACsFrraN+A/PmTpnb3+6NNI3RyKxnwer2NXI5BACLwdLovRZMhHzgwmSQAAnhPeEMi7uzfQNVhg+ad3Xy59ESXlW4mXyoggqNZaJU7Mq1LhLAAACQAgyYo9NpfIBvZ2eZ0uhna6mCAABDVN0x20otaE8NiwvAGwMmZTX6Dbh1CzkSAIXYCiqCsbHgAAYV08l5hPvRP4clU30SBVrQHHSfEmwMSxwEqRK81+TaQWf6VzKtbwXwHLS6vf2eVMpAkAAEDgthmPx0H5trg3IQLphnleKudWi9HbFw+J9VuT88r0B6+xjZjyeJwHtu/YZm/cRBTlSuJz6mHoSM/Jxgx5eepVu2JAPqfNGmQYerij0z3UvtlurxswBkj/zGWy6d8PQkd3Xmv9FUkVakW62z5Gm6nDjI3eijVsZPO8IpTKrCwra9y6OC+w5Zvh8f5FvVpNFc5PvjUhQ60TkZgkkTkTOTHA6Y7xL/UH6nDhpm7oYjcAAAAASUVORK5CYII=")
-    no-repeat;https://img.icons8.com/fluent/48/000000/twitter.png
-}
