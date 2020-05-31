@@ -3,7 +3,7 @@
     "someSidebar": [
       {
         "type": "category",
-        "label": "Docusaurus",
+        "label": "Coding Practices",
         "items": [
           {
             "type": "link",
@@ -19,12 +19,23 @@
       },
       {
         "type": "category",
-        "label": "Features",
+        "label": "Concurrency",
         "items": [
           {
             "type": "link",
             "label": "Powered by MDX",
             "href": "/docs/mdx"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Rust",
+        "items": [
+          {
+            "type": "link",
+            "label": "Introducing RUST",
+            "href": "/docs/rust"
           }
         ]
       }
@@ -33,6 +44,7 @@
   "permalinkToSidebar": {
     "/docs/doc1": "someSidebar",
     "/docs/doc2": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/mdx": "someSidebar",
+    "/docs/rust": "someSidebar"
   }
 }

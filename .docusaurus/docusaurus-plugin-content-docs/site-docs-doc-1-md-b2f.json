@@ -4,7 +4,7 @@
   "description": "You can write content using GitHub-flavored Markdown syntax.",
   "source": "@site/docs/doc1.md",
   "permalink": "/docs/doc1",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+  "editUrl": "https://github.com/AymanArif/docusaurus-blog/edit/master/website/docs/doc1.md",
   "sidebar_label": "Clean Code",
   "sidebar": "someSidebar",
   "next": {

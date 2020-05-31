@@ -101,7 +101,7 @@ export default {
         "docs": {
           "homePageId": "doc1",
           "sidebarPath": "/home/ayman/Documents/docusaurus-blog/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/AymanArif/docusaurus-blog/edit/master/website/"
         },
         "blog": {
           "showReadingTime": true,

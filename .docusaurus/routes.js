@@ -92,6 +92,12 @@ export default [
   component: ComponentCreator('/docs/mdx'),
   exact: true,
   
+},
+{
+  path: '/docs/rust',
+  component: ComponentCreator('/docs/rust'),
+  exact: true,
+  
 }],
 },
   

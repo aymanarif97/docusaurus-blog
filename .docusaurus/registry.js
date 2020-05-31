@@ -16,6 +16,7 @@ export default {
   'content---docs-doc-2-df-3-eaa': [() => import(/* webpackChunkName: 'content---docs-doc-2-df-3-eaa' */ "@site/docs/doc2.md"), "@site/docs/doc2.md", require.resolveWeak("@site/docs/doc2.md")],
   'content---docs-doc-3616-40c': [() => import(/* webpackChunkName: 'content---docs-doc-3616-40c' */ "@site/docs/doc3.md"), "@site/docs/doc3.md", require.resolveWeak("@site/docs/doc3.md")],
   'content---docs-mdxce-3-7d1': [() => import(/* webpackChunkName: 'content---docs-mdxce-3-7d1' */ "@site/docs/mdx.md"), "@site/docs/mdx.md", require.resolveWeak("@site/docs/mdx.md")],
+  'content---docs-rust-184-58f': [() => import(/* webpackChunkName: 'content---docs-rust-184-58f' */ "@site/docs/RUSTIntroduction.md"), "@site/docs/RUSTIntroduction.md", require.resolveWeak("@site/docs/RUSTIntroduction.md")],
   'content---docsb-2-f-e09': [() => import(/* webpackChunkName: 'content---docsb-2-f-e09' */ "@site/docs/doc1.md"), "@site/docs/doc1.md", require.resolveWeak("@site/docs/doc1.md")],
   'docsMetadata---docs-route-20-a-f24': [() => import(/* webpackChunkName: 'docsMetadata---docs-route-20-a-f24' */ "~docs/docs-route-ff2.json"), "~docs/docs-route-ff2.json", require.resolveWeak("~docs/docs-route-ff2.json")],
   'docsMetadata---docsf-22-12d': [() => import(/* webpackChunkName: 'docsMetadata---docsf-22-12d' */ "~docs/site-docs-doc-1-md-b2f-base.json"), "~docs/site-docs-doc-1-md-b2f-base.json", require.resolveWeak("~docs/site-docs-doc-1-md-b2f-base.json")],
