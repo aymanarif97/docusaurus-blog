@@ -100,7 +100,7 @@ export default {
       {
         "docs": {
           "homePageId": "doc1",
-          "sidebarPath": "/home/ayman/Documents/docusaurus-blog/sidebars.js",
+          "sidebarPath": "/home/ayman/Pictures/docusaurus-blog-ayman-blog/sidebars.js",
           "editUrl": "https://github.com/AymanArif/docusaurus-blog/edit/master/website/"
         },
         "blog": {
@@ -108,7 +108,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/home/ayman/Documents/docusaurus-blog/src/css/custom.css"
+          "customCss": "/home/ayman/Pictures/docusaurus-blog-ayman-blog/src/css/custom.css"
         }
       }
     ]
