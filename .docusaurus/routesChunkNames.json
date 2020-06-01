@@ -2,6 +2,9 @@
   "/": {
     "component": "component---site-src-pages-index-jsc-4-f-f99"
   },
+  "/SocialFollow": {
+    "component": "component---site-src-pages-social-follow-js-5-da-815"
+  },
   "/blog": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [

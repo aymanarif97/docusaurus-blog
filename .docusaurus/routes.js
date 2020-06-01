@@ -11,6 +11,12 @@ export default [
   
 },
 {
+  path: '/SocialFollow',
+  component: ComponentCreator('/SocialFollow'),
+  exact: true,
+  
+},
+{
   path: '/blog',
   component: ComponentCreator('/blog'),
   exact: true,

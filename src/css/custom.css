@@ -43,5 +43,50 @@ html[data-theme='dark'] .header-github-link:before {
 }
 
 .header-twitter-link:hover {
-  opacity: 0.6;
+  opacity: 0.1;
+}
+
+
+.social-container {
+  padding: 25px 50px;
+  text-align:center;
+
+}
+
+
+.social-leaf{
+  display: inline-block;
+  vertical-align: top;
+  width: fit-content;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-10px);
+}
+
+a.gitlab {
+  color: #fca326;
+}
+
+
+a.linkedin {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #0b6681;
+}
+
+html[data-theme='dark'] a.github {
+  color: black;
+}
+
+a.github {
+  color: white;
 }

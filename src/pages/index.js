@@ -2,14 +2,14 @@ import React from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-//import Link from 'react-router-dom';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 // get our fontawesome imports
-import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faHamburger } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SocialFollow from './SocialFollow';
 
 const features = [
   {
@@ -97,10 +97,11 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Find Docs!
             </Link>
+            </div>
+<SocialFollow/>
 
-          </div>
         </div>
       </header>
       <main>
