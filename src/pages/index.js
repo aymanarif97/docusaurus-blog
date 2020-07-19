@@ -15,7 +15,7 @@ const features = [
   {
     title: <>Java</>,
     square: false,
-    imageUrl: 'https://w.wallhaven.cc/full/96/wallhaven-96gywx.png',
+    imageUrl: 'https://img-a.udemycdn.com/course/750x422/2669808_fcbe.jpg',
     description: (
       <>
         Java is NOT DEAD!
@@ -30,6 +30,16 @@ const features = [
       <>
         Golang. Google's posterchild. Simple, elegant, effective. 
         That's how yo GO about doing backend systems.
+      </>
+    ),
+  },
+    {
+    title: <>Rust Blog</>,
+    square: true,
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSilcd6W5S8Getdj7KxMPoVwoL7gq7Qry71QQ&usqp=CAU',
+    description: (
+      <>
+        Rust, the most loved language!
       </>
     ),
   },
