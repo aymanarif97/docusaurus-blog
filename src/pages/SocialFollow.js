@@ -14,7 +14,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div className="social-container">
+    <div className="social-container" style="background-color:#FF00FF; opacity:0.7">
       <h3>Follow me here: </h3>
 
       <div className="social-leaf">
