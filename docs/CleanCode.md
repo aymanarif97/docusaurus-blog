@@ -41,13 +41,13 @@ Just knowing everything is not enough. Use them daily. Write and review lots of 
 4. Proxy of clean code
 5. Maintainable/Testable code: Easy to modify and good tests. Easy to validate new changes
 
-Produtivity of engineers: Can add new code easily
+6. Produtivity of engineers: Can add new code easily
 
-6. Readable
+7. Readable
 
-7. Crisp and clear: No suprises in what it does. Does SRP well.
+8. Crisp and clear: No suprises in what it does. Does SRP well.
 
-8. Performant and scalable. [How would Ayman achieve this?]
+9. Performant and scalable. [How would Ayman achieve this?]
 
  
 
@@ -107,19 +107,24 @@ Example:
 
 6. Use searchable names. 
 
+
 ::: caution 
 
 DO NOT USE SINGLE CHARACTERS.
 
 :::
 
+
+
 7. DO NOT ENCODE TYPES IN NAMES
+
 
 ::: caution 
 
 Generics could change the type of variables. 
 
 :::
+
 
 8. Avoid prefixes to names.
 
