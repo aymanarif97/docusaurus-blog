@@ -12,6 +12,9 @@ tags: [java, docusaurus]
 # 25 Things You Didn't Know About Java
 
 
+This blog post I will list out 25 things that you might not know about Java.
+
+<!--truncate-->
 
 ## 1. Project Loom
 
