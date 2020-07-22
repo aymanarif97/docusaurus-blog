@@ -25,7 +25,7 @@ Just knowing everything is not enough. Use them daily. Write and review lots of 
 :::
 
 
-# Chapter 1 
+# Chapter 1 : Introduction to Clean Code
 
 
 ## Rule of Thumb
@@ -159,6 +159,18 @@ Example:
 
 
 
+ # Chapter 3: Functions
+ 
+ # Chapter 4: Comments
+  
+ # Chapter 5: Formatting
+
+ # Chapter 6: Objects and Data Structures
+ 
+ # Chapter 7 Error handling
+  
+ # Chapter 8: Boundaries 
+
  
  # Chapter 9: Unit Tests
  
@@ -179,7 +191,43 @@ Example:
 You may not write more production code than is sufficient to pass the currently failing test.
 
 
+## Clean Tests
+
+Clean tests should follow **F.I.R.S.T** principle.
+
+*F, I, R, S are BAU*
+
+1. **Fast**: 
+
+2. **Independant** : Unit tests are not dependant on other tests.
+
+3. **Repeatable**: Should be able to run unit test in Local (without internet) , QA, Production environment.
+
+4. **Self-validating** : Should **PASS** or **FAIL**, as simple as that.
+
+5. **Timely** : Write *unit test* just before *production code*. If you do not follow this principle, then *production code* will be hard to test.
+
+
+# Chapter 10: Classes
+
+# Chapter 11: Systems
+
+# Chapter 12: Emergance
+
+# Chapter 13: Concurrency
+
+# Chapter 14: Successive Refinement
+
+# Chapter 15: Junit Internals
+
+## Applying Boy Scout Rule to a test-case.
+
+
+# Chapter 16: Refactoring `SerialDate`
  
+# Chapter 17: Smells and heuristics
+
+
 
 :::note
 
