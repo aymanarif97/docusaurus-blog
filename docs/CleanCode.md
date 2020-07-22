@@ -144,7 +144,7 @@ Generics could change the type of variables.
 - Do not use same name for 2 different things.
 - Use Domain specific name
 
-Ecample: 
+Example: 
 
 - For visitor pattern, use `accountVisitor`
 
@@ -157,7 +157,27 @@ Ecample:
 
 - Not too long name.
 
+
+
  
+ # Chapter 9: Unit Tests
+ 
+ 
+ ## Three Laws of TDD
+ 
+ ### First Law
+ 
+ You may not write production code until you have a falling unit test.
+ 
+ 
+ ### Second Law
+ 
+ You may not write more of a unit test than it is sufficient to fail; NOT compiling = Failing
+ 
+ ### Third Law
+
+You may not write more production code than is sufficient to pass the currently failing test.
+
 
  
 
